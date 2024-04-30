@@ -109,22 +109,38 @@ Com 3 dados de 4 lados
 
 em uma tabela que avalie até 4 dados de 4 lados a tabela seria:
 
-[1, 1, vetor com a chance de cada resultado]
+[[1, 1, vetor com a chance de cada resultado]
+
+
 [1, 2, vetor com a chance de cada resultado]
+
 [1, 3, vetor com a chance de cada resultado]
+
 [1, 4, vetor com a chance de cada resultado]
+
 [2, 1, vetor com a chance de cada resultado]
+
 [2, 2, vetor com a chance de cada resultado]
+
 [2, 3, vetor com a chance de cada resultado]
+
 [2, 4, vetor com a chance de cada resultado]
+
 [3, 1, vetor com a chance de cada resultado]
+
 [3, 2, vetor com a chance de cada resultado]
+
 [3, 3, vetor com a chance de cada resultado]
+
 [3, 4, vetor com a chance de cada resultado]
+
 [4, 1, vetor com a chance de cada resultado]
+
 [4, 2, vetor com a chance de cada resultado]
+
 [4, 3, vetor com a chance de cada resultado]
-[4, 4, vetor com a chance de cada resultado]
+
+[4, 4, vetor com a chance de cada resultado]]
 
 Uma vez tendo a tabela criada ela é salva e pode ser carregada novamente
 caso então desejemos saber a conta de 2 dados de 4 lados o codigo ira 
