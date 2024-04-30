@@ -97,11 +97,38 @@ Por exemplo
 indica a soma dos elementos [0,1]+[1,0]+[2,3]=2+1+4=7
 e então o vetor valores_possiveis na posição [7] é acrssido em 1
 
+Devido ao tamanho crescente uma vez que mais dados são rolados o codigo começa a ficar lento
+logo na versão 2 o codigo foi alterado para calcular uma tabela que englobe todos os valores
+em uma faixa maxima de tamanhos de dados e numero de dados.
 
+Cada vetor calculado é tageado para representar o numero de dados tamanho de dados e possiveis somas:
+por exemplo:
 
+Com 3 dados de 4 lados
+[3, 4, vetor com a chance de cada resultado]
 
+em uma tabela que avalie até 4 dados de 4 lados a tabela seria:
 
+[1, 1, vetor com a chance de cada resultado]
+[1, 2, vetor com a chance de cada resultado]
+[1, 3, vetor com a chance de cada resultado]
+[1, 4, vetor com a chance de cada resultado]
+[2, 1, vetor com a chance de cada resultado]
+[2, 2, vetor com a chance de cada resultado]
+[2, 3, vetor com a chance de cada resultado]
+[2, 4, vetor com a chance de cada resultado]
+[3, 1, vetor com a chance de cada resultado]
+[3, 2, vetor com a chance de cada resultado]
+[3, 3, vetor com a chance de cada resultado]
+[3, 4, vetor com a chance de cada resultado]
+[4, 1, vetor com a chance de cada resultado]
+[4, 2, vetor com a chance de cada resultado]
+[4, 3, vetor com a chance de cada resultado]
+[4, 4, vetor com a chance de cada resultado]
 
+Uma vez tendo a tabela criada ela é salva e pode ser carregada novamente
+caso então desejemos saber a conta de 2 dados de 4 lados o codigo ira 
+rapiamente para o ponto tageado por [2,4] e os calculos são feitos
 
 
 
